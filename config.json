@@ -2,6 +2,9 @@
   "appid": "553",
   "key1": "9phuAOYhan4urywHTh0ndEXiV3pKHr5Q",
   "key2": "Iyz2habzyr7AG8SgvoBCbKwKi3UzlLi3",
+  "ngrok": {
+    "tunnels": "http://localhost:4040/api/tunnels"
+  },
   "api": {
     "createorder": "https://sandbox.zalopay.com.vn/v001/tpe/createorder",
     "gateway": "https://sbgateway.zalopay.vn/pay?order=",
