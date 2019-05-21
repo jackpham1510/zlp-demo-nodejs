@@ -1,0 +1,23 @@
+{
+  "name": "zlp-demo-nodejs",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/tiendung1510/zlp-demo-nodejs",
+  "author": "dungpqt",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.17.0",
+    "express-promise-router": "^3.0.3",
+    "express-ws": "^4.0.0",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "mysql2": "^1.6.5",
+    "node-rsa": "^1.0.5",
+    "sequelize": "^5.8.6",
+    "uuid": "^3.3.2"
+  }
+}

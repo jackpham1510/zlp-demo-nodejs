@@ -1,0 +1,17 @@
+{
+  "appid": "553",
+  "key1": "9phuAOYhan4urywHTh0ndEXiV3pKHr5Q",
+  "key2": "Iyz2habzyr7AG8SgvoBCbKwKi3UzlLi3",
+  "api": {
+    "createorder": "https://sandbox.zalopay.com.vn/v001/tpe/createorder",
+    "gateway": "https://sbgateway.zalopay.vn/pay?order=",
+    "quickpay": "https://sandbox.zalopay.com.vn/v001/tpe/submitqrcodepay",
+    "refund": "https://sandbox.zalopay.com.vn/v001/tpe/partialrefund",
+    "getrefundstatus": "https://sandbox.zalopay.com.vn/v001/tpe/getpartialrefundstatus",
+    "getorderstatus": "https://sandbox.zalopay.com.vn/v001/tpe/getstatusbyapptransid",
+    "getbanklist": "https://sbgateway.zalopay.vn/api/getlistmerchantbanks"
+  },
+  "db": {
+    "connstring": "mysql://root:123@localhost:3306/zalopay-demo"
+  }
+}
