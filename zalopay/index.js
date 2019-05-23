@@ -2,7 +2,6 @@ const fs = require('fs');
 const NodeRSA = require('node-rsa');
 const axios = require('axios').default;
 const CryptoJS = require('crypto-js');
-const uuid = require('uuid/v1');
 const moment = require('moment');
 
 const config = require('../config.json');
@@ -13,6 +12,8 @@ const publicKey = fs.readFileSync('publickey.pem', 'utf8');
 const rsa = new NodeRSA(publicKey, {
   encryptionScheme: 'pkcs1'
 });
+
+let uid = Date.now();
 
 class ZaloPay {
   constructor() {
@@ -39,7 +40,7 @@ class ZaloPay {
   }
 
   GenTransID() {
-    return `${moment().format('YYMMDD')}_${config.appid}_${uuid()}`;
+    return `${moment().format('YYMMDD')}_${config.appid}_${++uid}`;
   }
 
   NewOrder({ amount, description }) {
