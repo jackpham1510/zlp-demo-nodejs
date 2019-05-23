@@ -14,10 +14,10 @@ Order.init({
     type: Sequelize.STRING
   },
   amount: {
-    type: Sequelize.INTEGER
+    type: Sequelize.BIGINT
   },
   timestamp: {
-    type: Sequelize.INTEGER
+    type: Sequelize.BIGINT
   },
   channel: {
     type: Sequelize.INTEGER
