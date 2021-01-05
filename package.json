@@ -6,7 +6,7 @@
   "author": "dungpqt",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "crypto-js": "^3.1.9-1",
