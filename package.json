@@ -13,7 +13,7 @@
     "express": "^4.17.0",
     "express-promise-router": "^3.0.3",
     "express-ws": "^4.0.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "morgan": "^1.9.1",
     "mysql2": "^1.6.5",
     "node-rsa": "^1.0.5",
